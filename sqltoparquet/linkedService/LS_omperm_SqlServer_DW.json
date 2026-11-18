@@ -1,0 +1,21 @@
+{
+	"name": "LS_omperm_SqlServer_DW",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "P-SumaSri\\SQLEXPRESS01",
+			"database": "Sqlmigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "madan",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjZjQ4NzQwZC0yNGMyLTQxZTctOTJkNi1mZDdhZTM5OTMyY2UiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

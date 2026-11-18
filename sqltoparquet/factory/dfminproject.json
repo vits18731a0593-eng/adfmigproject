@@ -1,0 +1,15 @@
+{
+	"name": "dfminproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "847f4f19-6258-4871-8876-e7ad58332442",
+		"tenantId": "7483eaba-de71-4fdb-90b0-3efdfb1e9589"
+	}
+}
